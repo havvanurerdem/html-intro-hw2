@@ -13,7 +13,7 @@
 
 <!-- ------------------------------------------------ -->
 <a href="#footer">
-    <button> En Alt Kisma Git </button>
+    <button style="color:brown"> En Alt Kisma Git </button>
 </a>
 <br><br>
 <!-- ------------------------------------------------ -->
@@ -23,8 +23,8 @@
 <!--
     <a> etiketinin en önemli özelliği 'href' dir.Bu özellik ile sayfalari linkleyebiliriz.
 -->
-<a href="https://www.linkedin.com/in/havva-nur-erdem-969726202/"> LinkedIn Profilim </a>
-<p><a href="https://www.linkedin.com/in/havva-nur-erdem-969726202/"><button> LinkedIn Profilim </button></a></p>
+<a href="https://www.linkedin.com/in/havva-nur-erdem-969726202/"target="_blank"> LinkedIn Profilim </a>
+<p><a href="https://www.linkedin.com/in/havva-nur-erdem-969726202/"target="_blank"><button> LinkedIn Profilim </button></a></p>
 <hr>
 <h2>
     <span style="color:rgb(226, 43, 98)">
@@ -33,8 +33,8 @@
     <p> etiketi ile satir başi veya paragraf başi yapabiliriz.
 -->
 <p>Merhaba! Ben Havva Nur ERDEM. Mekatronik mühendisiyim. Web geliştirme ile ilgileniyorum. Bir arkadaşımın tavsiyesi ile <strong>patika.dev</strong> ile tanıştım ve <strong><em>Başlangıç Seviye Frontend Web Development Patikası</em></strong>'na katılarak harika şeyler öğrendim ve büyük bir keyifle öğrenmeye devam ediyorum :) </p> 
-<hr> <!--
-    <hr> etiketi ile cizgi cektim-->
+<hr> 
+<!-- <hr> etiketi ile cizgi cektim-->
 
 <!------------------------------------------------------------------------------------------------------------>
 
@@ -48,7 +48,7 @@
 </ul>
 <br>
 <!-- div etiketi ile aşağıda ki listeyi tek bloğa aldım -->
-<p><em>(div etiketi ile asagida ki listeyi tek blok haline cevirdik)</em></p>
+<p><em>("div" etiketi ile asagida ki listeyi tek blok haline getirdik)</em></p>
 
 <div>
     <h3>
@@ -87,7 +87,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.goodreads.com/book/show/9509724-d-n-m?from_search=true&from_srp=true&qid=TuKsjwMThl&rank=1">
+                    <a href="https://www.goodreads.com/book/show/9509724-d-n-m?from_search=true&from_srp=true&qid=TuKsjwMThl&rank=1" target="_blank">
                         Kafka-Dönüşüm
                     </a>
                 </li>
@@ -100,7 +100,7 @@
 <hr>
 
 <!-- baska bir sayfaya git -->
-<h4>Iletişim Sayfayasına Git</h4>
+<h4><span style="color: rgb(226, 43, 98);">Iletişim Sayfayasına Git</span></h4>
 <a href="iletisim.html">
     <h3> Iletisim sayfasina git</h3>
 </a>
@@ -115,7 +115,7 @@
 <!----------------------------------------------------------------------------------------------------------->
 
 <!-- border Kullanımı:Görseli belirtilen kalınlıkta çerçeve içine alır -->
-<h3>border kullanimi</h3>
+<h3><span style="color: rgb(226, 43, 98);">border kullanimi</span></h3>
 <img src="https://picsum.photos/203/300" border="3" />
 <!-- Görsele 3 pixel kalınlıkta border verir. -->
 <img src="https://picsum.photos/203/300" border="8" />
@@ -127,12 +127,12 @@
 Web sayfasında resmin gözükeceği pozisyonu belirlemede align özelliği kullanılır. Bu özelliğe verilebilecek değerler şunlardır: left, right. Görselin sağa veya sola yaslı çıkmasını sağlar. -->
 <p></p>
 <br>
-<h3>right align kullanimi</h3>
+<h3><span style="color: rgb(226, 43, 98);">right align kullanimi</span></h3>
 <img src="https://picsum.photos/201/100" align="right" />
 <br><br><br> <br><br><br><br>
 <p></p>
 <hr>
-<h3>left align kullanimi</h3>
+<h3><span style="color: rgb(226, 43, 98);">left align kullanimi</span></h3>
 <img src="https://picsum.photos/202/100" align="left" />
 
 
@@ -140,8 +140,8 @@ Web sayfasında resmin gözükeceği pozisyonu belirlemede align özelliği kull
 <br><br><br><br><br><br><br>
 
 <hr>
-<h3>Görsele link verme:</h3>
-<a href="https://www.kodluyoruz.org/about">
+<h3><span style="color: rgb(226, 43, 98);">Görsele link verme:</span></h3>
+<a href="https://www.kodluyoruz.org/about" target="_blank">
     <img src="https://picsum.photos/200/300" alt="picsum gorsel" title="kodluyoruz sitesine gitmek için tikla :)" >
 </a>
 <hr>
@@ -164,9 +164,10 @@ Web sayfasında resmin gözükeceği pozisyonu belirlemede align özelliği kull
 <!-- Aşağıdaki örnekte görsel yüklenmesi tamamlandığında resimYuklendi() fonksiyonu çalışacak ve ekrana Resim Yüklendi. uyarısı JavaScript tarafından bastırılacak.  -->
 <h4>
     <span style="color:rgb(226, 43, 98)">
-    onload Event'i Kullanımı ile resim yüklendi uyarısı oluşturma
+    onload Event'i Kullanimi ile resim yüklendi uyarisi oluşturma
     </span>
 </h4>
+<p>Web sayfasi ilk acildiginda ustte gelen sayfa mesajini olusturduk.</p>
 <html>
     <body>
         <img src="https://picsum.photos/600/300" onload="resimYuklendi()" />
@@ -175,6 +176,7 @@ Web sayfasında resmin gözükeceği pozisyonu belirlemede align özelliği kull
     <script>
         function resimYuklendi(){
             alert("Resim yüklendi.");
+            alert("Hoşgeldiniz");
         }
     </script>
 </html>
@@ -190,7 +192,7 @@ Web sayfasında resmin gözükeceği pozisyonu belirlemede align özelliği kull
 </html>
 
 <a href="#top">
-    <button> En Ust Kisma Git </button>
+    <button style="color:brown" > En Ust Kisma Git </button>
 </a>
 <h2 id="footer"> En Alt Kisim</h2>
 <h3>picture Elementi ile Kullanim</h3>
